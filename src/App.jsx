@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 
+import Home from "./containers/Home/Home";
+
 // import Container from "./containers/Container";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<div>The new Landing page</div>} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }
